@@ -3,3 +3,22 @@
     padding: 0;
     margin: 0;
 }
+.container {
+    display: grid;
+}
+.container-1 {
+    height: 100vh;
+    background: burlywood;
+}
+.container-2 {
+    height: 100vh;
+    background: chartreuse;
+}
+.container-3 {
+    height: 50vh;
+    background: crimson;
+}
+.footer {
+    height: 10vh;
+    background: darkslategray;
+}
