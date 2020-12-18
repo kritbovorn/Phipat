@@ -1,4 +1,4 @@
 .container-3 {
-    height: 50vh;
+    min-height: 50vh;
     background: crimson;
 }

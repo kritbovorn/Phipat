@@ -7,8 +7,9 @@
     padding: 0;
     margin: 0;
 }
+
 .container {
-    /* display: grid; */
+    display: grid;
 }
 .container-1 {
     height: 80vh;
@@ -81,9 +82,6 @@
     .container-1-2 {
         grid-template-columns: 1fr;
     }
-    /* .container-1-1 h1 {
-        margin-left: auto;
-    } */
 
     .container-1-2 .welcome h1 {
         padding-bottom: 1rem;
