@@ -2,13 +2,45 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-size: 10px;
 }
 .container {
     display: grid;
 }
 .container-1 {
-    height: 100vh;
-    background: burlywood;
+    height: 100%;
+    background: url(https://source.unsplash.com/collection/190727/1600x900);
+    background-position: center;
+    background-size: cover;
+    
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 3fr 1fr;
+    
+}
+.container-1-1 {
+    background: coral;
+    grid-column: 1 / -1;
+}
+.container-1-1 h1 {
+    
+}
+.container-1-2 {
+    
+}
+.container-1-2 .welcome {
+    
+}
+.container-1-2 .name {
+    
+}
+.container-1-2 .imageProfile {
+    
+    
+}
+.container-1-2 .imageProfile img {
+    /* height: 100%; */
+    width: 100%;
 }
 .container-2 {
     height: 100vh;
@@ -21,4 +53,9 @@
 .footer {
     height: 10vh;
     background: darkslategray;
+}
+
+@media screen and (max-width: 480px) {
+    
+    
 }
