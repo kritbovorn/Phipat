@@ -1,4 +1,68 @@
-.container-3 {
+/* .container-3 {
     min-height: 50vh;
     background: crimson;
+} */
+
+:root {
+    --color-primary: #651fff;
+    --color-gray: #37474f;
+    --color-light-gray: #b0bec5;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    color: var(--color-gray);
+}
+
+.wrapper-grid {
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(auto-fit, 19rem);
+    /* grid-template-columns: repeat(auto-fit, minmax(19rem, 22rem)); */
+    grid-gap: 2rem;
+    margin: 2rem;
+}
+.container {
+    box-shadow: 0 2px 8px 0 var(--color-light-gray) ;
+    text-align: center;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+.banner-image {
+    position: absolute;
+    background: url(https://source.unsplash.com/random);
+    width: 100%;
+    height: 10rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.profile-image-wrap {
+    filter: drop-shadow(2px 6px 5px rgba(50, 50, 0, 0.5));
+}
+.profile-image {
+    width: 8rem;
+    clip-path: circle(4rem at center);
+    margin-top: 5rem;
+}
+.name {
+    font-size: 1.5rem;
+}
+.description {
+    margin: 1rem 2rem;
+    font-size: 0.9rem;
+}
+.btn {
+    width: 100%;
+    border: none;
+    font: 1rem bold;
+    color: white;
+    background: var(--color-primary);
+    padding: 1rem;
+    
 }
