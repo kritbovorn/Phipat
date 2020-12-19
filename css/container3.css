@@ -3,21 +3,9 @@
     background: crimson;
 } */
 
-:root {
-    --color-primary: #651fff;
-    --color-gray: #37474f;
-    --color-light-gray: #b0bec5;
-    --background-gradients: linear-gradient(45deg,
-     #845ec2, 
-     #d65db1, 
-     #ff6f91,
-     #ff9671,
-     #ffc75f,
-     #f9f872
-     );
-}
+
 .container-3 {
-    background-color: var(--background-gradients);
+    /* background: var(--background-gradients); */
     display: grid;
     place-content: center;
     grid-template-columns: repeat(auto-fit, 18rem);
@@ -31,11 +19,12 @@
    
 }
 .container-card {
-    box-shadow: 0 2px 8px 0 var(--color-light-gray) ;
+    box-shadow: 15px 15px 28px 0 var(--color-light-gray) ;
     text-align: center;
     border-radius: 1rem;
     position: relative;
     overflow: hidden;
+    background-color: whitesmoke;
 }
 .banner-image {
     position: absolute;

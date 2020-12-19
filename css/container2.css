@@ -1,4 +1,19 @@
 
+:root {
+    --color-primary: #651fff;
+    --color-gray: #37474f;
+    --color-light-gray: #b0bec5;
+    --background-gradients: linear-gradient(45deg,
+     #845ec2, 
+     #d65db1, 
+     #ff6f91,
+     #ff9671,
+     #ffc75f,
+     #f9f872
+     );
+}
+
+
 .cardHover {
     transition: transform 200ms ease-in;
 }
@@ -16,7 +31,7 @@
     color: rgb(63, 61, 61);
     text-shadow: 5px 5px 15px #e40606;
     font-weight: bold;
-    padding: 1rem;
+    padding: 2rem;
 
     transition: transform 200ms ease-in;
 }
@@ -25,6 +40,7 @@
     transform: scale(1.02);
 }
 .cardRight {
+    background-color: whitesmoke;
     box-shadow: 0 2px 5px darkcyan;
     font-size: 20px;
     display: grid;
@@ -33,8 +49,8 @@
     color: rgb(58, 6, 6);
     text-shadow: 1px 1px 2px #FF0000;
     font-weight: bold;
-    line-height: 2rem;
-    padding: 1rem;
+    line-height: 1.5rem;
+    padding: 2rem;
 
     transition: transform 200ms ease-in;
 }
@@ -47,10 +63,10 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: repeat(4, 25vh);
-    grid-gap: 1rem;
+    grid-gap: 2rem;
     margin: 3rem 0;
     padding: 0 1rem;
-    
+    background-color: var(--background-gradients);
 }
 .container-2-1 {
     background: chartreuse;
@@ -68,7 +84,7 @@
     background: dimgrey;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 520px) {
     .container-2 {
         grid-template-columns: 1fr;
     }
