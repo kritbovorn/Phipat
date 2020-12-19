@@ -19,15 +19,16 @@
 .container-3 {
     background-color: var(--background-gradients);
     display: grid;
-}
-
-.wrapper-grid {
-    display: grid;
     place-content: center;
     grid-template-columns: repeat(auto-fit, 18rem);
     /* grid-template-columns: repeat(auto-fit, minmax(19rem, 22rem)); */
     grid-gap: 2rem;
     margin: 5rem 0;
+}
+
+.wrapper-grid {
+    display: grid;
+   
 }
 .container-card {
     box-shadow: 0 2px 8px 0 var(--color-light-gray) ;
