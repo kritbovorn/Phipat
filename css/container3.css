@@ -7,26 +7,29 @@
     --color-primary: #651fff;
     --color-gray: #37474f;
     --color-light-gray: #b0bec5;
+    --background-gradients: linear-gradient(45deg,
+     #845ec2, 
+     #d65db1, 
+     #ff6f91,
+     #ff9671,
+     #ffc75f,
+     #f9f872
+     );
 }
-
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-body {
-    color: var(--color-gray);
+.container-3 {
+    background-color: var(--background-gradients);
+    display: grid;
 }
 
 .wrapper-grid {
     display: grid;
     place-content: center;
-    grid-template-columns: repeat(auto-fit, 19rem);
+    grid-template-columns: repeat(auto-fit, 18rem);
     /* grid-template-columns: repeat(auto-fit, minmax(19rem, 22rem)); */
     grid-gap: 2rem;
-    margin: 2rem;
+    margin: 5rem 0;
 }
-.container {
+.container-card {
     box-shadow: 0 2px 8px 0 var(--color-light-gray) ;
     text-align: center;
     border-radius: 1rem;

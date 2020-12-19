@@ -1,3 +1,12 @@
+
+.cardHover {
+    transition: transform 200ms ease-in;
+}
+.cardHover:hover {
+    transform: scale(1.02);
+}
+
+
 .cardLeft {
     box-shadow: 0 2px 5px darkcyan;
     font-size: 20px;
@@ -11,6 +20,7 @@
 
     transition: transform 200ms ease-in;
 }
+
 .cardLeft:hover {
     transform: scale(1.02);
 }
@@ -38,7 +48,7 @@
     grid-template-columns: 1fr 2fr;
     grid-template-rows: repeat(4, 25vh);
     grid-gap: 1rem;
-    margin: 1rem;
+    margin: 5rem;
     
 }
 .container-2-1 {
