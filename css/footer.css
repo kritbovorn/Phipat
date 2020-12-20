@@ -6,8 +6,11 @@
 }
 
 .social-media {
-    display: flex;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 75px);
     justify-content: center;
+    gap: 2rem;
 }
 .social-media a {
     display: flex;
