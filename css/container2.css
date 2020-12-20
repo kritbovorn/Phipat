@@ -56,7 +56,18 @@
     grid-template-columns: repeat(auto-fit, minmax(19rem, auto));
     margin-bottom: 2rem;
 }
-
+.container-2-1 {
+    background: yellowgreen;
+}
+.container-2-3 {
+    background: slateblue;
+}
+.container-2-5 {
+    background: springgreen;
+}
+.container-2-7 {
+    background: seagreen;
+}
 
 
 
