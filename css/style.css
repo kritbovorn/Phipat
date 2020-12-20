@@ -25,19 +25,19 @@
 
 .container {
     /* display: grid; */
-    background: var(--background-gradients);
+    /* background: var(--background-gradients); */
     background-size: 500%;
-    animation: bg-gradient-animation 7s infinite alternate;
+    /* animation: bg-gradient-animation 7s infinite alternate; */
 }
 
-@keyframes bg-gradient-animation {
+/* @keyframes bg-gradient-animation {
     0% {
         background-position: left;
     }
     100% {
         background-position: right;
     }
-}
+} */
 .container-1 {
     height: 500px;
     background: url(https://source.unsplash.com/collection/190727/1600x900);
@@ -107,13 +107,3 @@
 }
 
 
-@media screen and (max-width: 480px) {
-    /* .container-1-2 {
-        grid-template-columns: 1fr;
-    }
-
-    .container-1-2 .welcome h1 {
-        padding-bottom: 1rem;
-    } */
-    
-}
