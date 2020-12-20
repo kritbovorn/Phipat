@@ -1,19 +1,4 @@
 
-:root {
-    --color-primary: #651fff;
-    --color-gray: #37474f;
-    --color-light-gray: #b0bec5;
-    --background-gradients: linear-gradient(45deg,
-     #845ec2, 
-     #d65db1, 
-     #ff6f91,
-     #ff9671,
-     #ffc75f,
-     #f9f872
-     );
-}
-
-
 .cardHover {
     transition: transform 200ms ease-in;
 }
@@ -66,7 +51,6 @@
     grid-gap: 2rem;
     margin: 3rem 0;
     padding: 0 1rem;
-    background-color: var(--background-gradients);
 }
 .container-2-1 {
     background: chartreuse;

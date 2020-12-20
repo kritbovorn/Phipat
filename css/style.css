@@ -11,6 +11,10 @@
      #ffc75f,
      #f9f872
      );
+
+    --color-primary: #651fff;
+    --color-gray: #37474f;
+    --color-light-gray: #b0bec5;
 }
 
 * {
@@ -22,6 +26,17 @@
 .container {
     /* display: grid; */
     background: var(--background-gradients);
+    background-size: 500%;
+    animation: bg-gradient-animation 7s infinite alternate;
+}
+
+@keyframes bg-gradient-animation {
+    0% {
+        background-position: left;
+    }
+    100% {
+        background-position: right;
+    }
 }
 .container-1 {
     height: 80vh;
@@ -49,7 +64,6 @@
     /* margin-left: 2rem; */
     background: rgba(24, 121, 34, 0.7);
     color: #ffffff;
-    /* border-radius: 1rem; */
 }
 .container-1-2 {
     grid-column: 1 / -1;
