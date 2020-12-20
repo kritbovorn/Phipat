@@ -39,7 +39,7 @@
     }
 }
 .container-1 {
-    height: 80vh;
+    height: 500px;
     background: url(https://source.unsplash.com/collection/190727/1600x900);
     background-position: center;
     background-size: cover;
@@ -50,11 +50,7 @@
     
 }
 .container-1-1 {
-    /* background: coral; */
     grid-column: 1 / -1;
-
-    /* display: grid;
-    align-content: center; */
     
 }
 .container-1-1 h1 {
@@ -65,50 +61,59 @@
     background: rgba(24, 121, 34, 0.7);
     color: #ffffff;
 }
+
+
 .container-1-2 {
-    grid-column: 1 / -1;
     display: grid;
-    grid-template-columns: 3fr 2fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, auto));
     gap: 0.5rem;
     padding: 0.5rem;
+    background: rgba(13, 89, 21, 0.4);
 }
 .container-1-2 .welcome {
-    padding: 1rem;
-    /* margin: 1rem; */
+    padding: 2rem;
     display: grid;
     align-items: center;
     background: rgba(45, 123, 211, 0.2);
 }
-.container-1-2 .name {
-    padding: 1rem;
-    /* margin: 1rem 0;
-    margin-right: 1rem; */
+.container-1-2 .welcome h1 {
+    margin-bottom: 1rem;
+}
+
+.name-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background: rgba(13, 89, 21, 0.4);
+}
+.name {
+    padding: 2rem;
     font-size: 1.2rem;
     display: grid;
     align-content: center;
     background: rgba(13, 89, 21, 0.4);
 }
-.container-1-2 .name p {
+.name p {
     padding-bottom: 0.5rem;
 }
-.container-1-2 .imageProfile {
+.imageProfile {
    display: grid;
    justify-content: center;
    align-content: center;
-   background-color:transparent ;
+   background: rgba(13, 89, 21, 0.4);
 }
 .container-1-2 .imageProfile img {
-    width: 100%;
+    width: 80%;
+    border-radius: 50%;
 }
 
 
 @media screen and (max-width: 480px) {
-    .container-1-2 {
+    /* .container-1-2 {
         grid-template-columns: 1fr;
     }
 
     .container-1-2 .welcome h1 {
         padding-bottom: 1rem;
-    }
+    } */
     
 }
