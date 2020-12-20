@@ -36,6 +36,7 @@
     font-weight: bold;
     line-height: 1.5rem;
     padding: 2rem;
+    margin-bottom: 2rem;
 
     transition: transform 200ms ease-in;
 }
@@ -48,7 +49,7 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: repeat(4, 25vh);
-    grid-gap: 2rem;
+    /* grid-gap: 2rem; */
     margin: 3rem 0;
     padding: 0 1rem;
 }
