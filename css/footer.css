@@ -35,7 +35,7 @@
     transition: transform 0.5s;
 }
 
-.social-media a:hover {
+.social-media a:hover, a:active {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1) inset,
                 -8px -8px 8px rgba(255, 255, 255, 0.5) inset,
                 0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
@@ -44,7 +44,7 @@
     border: 1px solid rgba(0, 0, 0, 0.01);
     transform: translateY(2px);
 }
-.social-media a:hover i {
+.social-media a:hover i, a:active i {
     transform: scale(0.7);
 }
 
@@ -55,15 +55,15 @@
 .social-media a:hover .fa-line {
     color: rgb(0, 185, 2);
 }
-.social-media a:hover .fa-twitter {
+.social-media a:hover .fa-twitter, a:active .fa-twitter {
     color: rgb(4, 158, 237);
 }
-.social-media a:hover .fa-instagram {
+.social-media a:hover .fa-instagram, a:active .fa-instagram {
     color: rgb(253, 126, 20);
 }
-.social-media a:hover .fa-whatsapp {
+.social-media a:hover .fa-whatsapp, a:active .fa-whatsapp {
     color: #4fce5d;
 }
-.social-media a:hover .fa-youtube {
+.social-media a:hover .fa-youtube, a:active .fa-youtube {
     color: rgb(255, 0, 0);
 }
