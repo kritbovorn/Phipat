@@ -56,9 +56,11 @@
 
 .container2-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(19rem, auto));
+    /* grid-template-columns: repeat(auto-fit, minmax(19rem, auto)); */
+    grid-template-columns: 2fr 3fr;
     margin-bottom: 2rem;
 }
+
 .container-2-1 {
     background: yellowgreen;
 }
@@ -70,6 +72,12 @@
 }
 .container-2-7 {
     background: seagreen;
+}
+
+@media screen and (max-width: 500px) {
+    .container2-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 
