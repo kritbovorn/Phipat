@@ -3,7 +3,8 @@
     transition: transform 200ms ease-in;
 }
 .cardHover:hover {
-    transform: scale(1.02);
+    /* transform: scale(1.02); */
+    transform: scale(0.98);
 }
 
 
@@ -22,7 +23,8 @@
 }
 
 .cardLeft:hover {
-    transform: scale(1.02);
+    /* transform: scale(1.02); */
+    transform: scale(0.98);
 }
 .cardRight {
     background-color: whitesmoke;
@@ -40,7 +42,8 @@
     transition: transform 200ms ease-in;
 }
 .cardRight:hover {
-    transform: scale(1.02);
+    /* transform: scale(1.02); */
+    transform: scale(0.98);
 }
 
 .container-2 {
