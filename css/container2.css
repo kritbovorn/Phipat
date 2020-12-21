@@ -1,3 +1,4 @@
+@import url(style.css);
 
 .cardHover {
     transition: transform 200ms ease-in;
@@ -61,17 +62,44 @@
     margin-bottom: 2rem;
 }
 
+/* Class Helper */
+.container-2-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100%;
+    padding: 0.5rem;
+}
+
 .container-2-1 {
-    background: yellowgreen;
+    background: yellowgreen; 
 }
 .container-2-3 {
-    background: slateblue;
+    background: rgb(137, 133, 163);
 }
 .container-2-5 {
-    background: springgreen;
+    background: rgb(133, 194, 20);
 }
 .container-2-7 {
-    background: seagreen;
+    background: rgb(199, 167, 174);
+}
+
+.border-first-view {
+    background: rgb(181, 236, 52);
+    border-radius: 1rem;
+
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    padding: 0.5rem;
+}
+.border-second-view {
+    background: var(--background-gradients);
+    border-radius: 1rem;
+
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    padding: 2rem;
 }
 
 @media screen and (max-width: 500px) {
